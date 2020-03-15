@@ -1,4 +1,5 @@
 {
   "myPrivateKey": "",
-  "anotherPrivateKey": ""
+  "anotherPrivateKey": "",
+  "db": "mongodb://localhost/vidly"
 }
