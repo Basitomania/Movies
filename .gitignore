@@ -1,3 +1,4 @@
 /node_modules
 errorlog.log
 uncaughtExceptions.log
+coverage/
