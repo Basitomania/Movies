@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage",
+    "test": "jest --forceExit --detectOpenHandles --watchAll --verbose --coverage --maxWorkers=1",
     "start": "nodemon index.js"
   },
   "keywords": [],
@@ -22,6 +22,7 @@
     "joi-password-complexity": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "mongoose": "^5.0.2",
     "winston": "^3.2.1",
     "winston-mongodb": "^3.0.0"
